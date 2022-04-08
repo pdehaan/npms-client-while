@@ -20,6 +20,7 @@
   },
   "scripts": {
     "pretty": "npx prettier *.js --write",
+    "recursion": "node recursion",
     "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
