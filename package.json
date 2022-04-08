@@ -1,18 +1,27 @@
 {
   "name": "npms-client-while",
-  "version": "1.0.0",
   "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bugs": {
+    "url": "https://github.com/pdehaan/npms-client-while/issues"
+  },
+  "dependencies": {
+    "npms.io": "^2.2.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/npms-client-while#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/npms-client-while.git"
+  },
   "scripts": {
-    "start": "node index",
     "pretty": "npx prettier *.js --write",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "type": "module",
-  "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
-  "devDependencies": {
-    "npms.io": "^2.2.1"
-  }
+  "type": "module"
 }
